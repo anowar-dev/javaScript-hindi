@@ -8,12 +8,10 @@ const username = {
     "full name": "Anower Hossan"
 }
 
-console.log(username["full name"]);
-username.name = "hossan"
-console.log(username)
-Object.freeze(username)
-username.email = "test";
-console.log(username)
+console.log(Object.keys(username));
+console.log(Object.values(username));
+console.log(Object.entries(username));
+
 
 
 
